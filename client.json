@@ -1,0 +1,15 @@
+{
+         "client": {
+"name": "Sensu-client",
+           "address": "10.211.55.177",
+           "subscriptions": [ "linux" ],
+           "keepalive": {
+           "handler": "mailer",
+             "thresholds": {
+           "warning": 250,
+           "critical": 300
+             },
+             "refresh": 90
+           }
+         }
+}
